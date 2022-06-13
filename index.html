@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piano App</title>
+  <!-- * Stylesheet * -->
+  <link rel="stylesheet" href="style.css">
+  <!-- * Icon * -->
+  <link rel="icon" href="images/icon.png">
+  <!-- * Manifest * -->
+  <link rel="manifest" href="site.webmanifest">
+  <!-- * Font * -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- * Contenitore del pianoforte * -->
+    <div class="piano">
+
+      <!-- * Pannello  con immagine* -->
+      <div class="piano-panel">
+        <img src="images/panel-logo.png" alt="logo panel">
+      </div>
+
+      <!-- * Contenitore delle note * -->
+      <div class="piano-notes">
+
+        <!-- * Note musicali * -->
+        <div class="note note-white" id="do"></div>
+        <div class="note note-black" id="dodiesis"></div>
+        <div class="note note-white" id="re"></div>
+        <div class="note note-black" id="rediesis"></div>
+        <div class="note note-white" id="mi"></div>
+        <div class="note note-white" id="fa"></div>
+        <div class="note note-black" id="fadiesis"></div>
+        <div class="note note-white" id="sol"></div>
+        <div class="note note-black" id="soldiesis"></div>
+        <div class="note note-white" id="la"></div>
+        <div class="note note-black" id="ladiesis"></div>
+        <div class="note note-white" id="si"></div>
+      </div>
+    </div>
+
+  <!-- * Logica JS * -->
+  <script src="script.js"></script>
+</body>
+
+</html>
